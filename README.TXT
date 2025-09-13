@@ -1,25 +1,19 @@
-Project: clock-display
-Authors: David Barnes and Michael Kölling
+21. It starts off at 00:00 because we didn't set a time
+23. 3600 times
+I could make it easier by calling the setTime method
+24. private NumberDisplay digit;
+   
+    NumberDisplay digit = new NumberDisplay();
+25. private Rectangle window
 
-This project is part of the material for the book
-
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
-
-It is discussed in chapter 3.
-
-To use this project, create an instance of class ClockDisplay. Then inspect this 
-instance and leave the object inspector window open. With the inspector window open, 
-call the object's methods, such as timeTick and setTime. Watch the 
-"displayString" in the inspector.
-
-The displayString field simulates the actual clock display device. Were this 
-program running in a real clock, it would change the real, physical display 
-hardware instead of this string. The timeTick method would be triggered once 
-every minute by some timer hardware.
-
-Everything else could be pretty much the same.
-
-
-Note: This project does not implement adequate handling of errors.
+    Rectangle window = new Rectangle();
+    
+    window.length = 40;
+    window width = 40;
+26. The second constructor creates a clock that lets you choose the
+hour and minute of your choice. It does this with (int hour, int minute)
+27. The setTime(hour,minute) alreayd takes care of the updateDisplay method
+28. p1.print("document", true)
+    p1.print("text", false)
+29. 
+    

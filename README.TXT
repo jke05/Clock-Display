@@ -15,5 +15,4 @@ hour and minute of your choice. It does this with (int hour, int minute)
 27. The setTime(hour,minute) alreayd takes care of the updateDisplay method
 28. p1.print("document", true)
     p1.print("text", false)
-29. 
     
